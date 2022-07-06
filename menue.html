@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!--FontAwesomeCSS-->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+
+    <!--BootstrapSocialCSS-->
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+
+</head>
+<body>
+
+    <div class="jumbotron jumbotron-fluid jumbotron-menue">   
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="container menue-icon-jumbotron">
+                    <i >
+                   <img class="mx-auto mt-4" src="images/menu.png" alt="" width="100px">
+                   </i>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!--Navbar-->
+    
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#Navbar1">
+                <Span class="navbar-toggler-icon"></Span>
+            </button>
+            <div class="collapse navbar-collapse" id="Navbar1">
+        <ul class="navbar-nav gap-3">
+        <li class="mt-2 nav-item">
+          <a class="btn btn-lg btn-secondary   nav-link" role="button" href="index.html">Home</a>
+        </li>
+        <li class="mt-2 nav-item">
+          <a class="btn btn-lg btn-secondary   nav-link active" role="button" href="menue.html">Menue</a>
+        </li>
+        <li class="mt-2 nav-item">
+          <a class="btn btn-lg btn-secondary  nav-link" role="button" href="aboutUs.html">About</a>
+        </li>
+        <li class="mt-2 mb-3 nav-item">
+          <a class="btn btn-lg btn-secondary   nav-link" role="button" href="aboutUs.html">Contact Us</a>
+        </li>
+        </ul>
+        </div>
+            <dvi class="btn-group d-none d-md-block">
+                <a role="button" id="loginButton" class="navbar-text login-btn" style="color:rgb(1, 0, 0);">  
+                    Login
+                    <i class= "fa-solid fa-right-to-bracket"></i>
+                </a>
+                </a>
+                <a role="button" id="joinButton" class="navbar-text join-btn" style="color:rgb(1, 0, 0);" >  
+                    Join
+                  
+                </a>
+           </div>      
+      </div>    
+    </nav>
+
+
+    <!--Acordian And Cards-->
+    <div class="container text-center menue-section" style="width:90%;">
+        <div class="row">
+            <div class="col">
+                <div class="accordion" id="accordionExample">
+
+                    <h1 class="mb-2">Coffe</h1>
+                    <img src="images/coffe.png" class="img-fluid rounded-circle" alt="..." Style="width:300px;">      
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              <img src="images/dropdown.png" class="img-fluid" alt="..." style="width:30px;">
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                          <div class="container">
+                              <div class="row">
+                                  <div class="col mx-auto">
+                                      <div class="card mt-4 mx-auto" style="width: 18rem;">
+                                          <a role="button" id="coffeItemOneButton" >
+                                              <img src="images/coffe.png" class="card-img-top img-fluid" alt="...">
+                                          </a>
+                                          <h1>Traditional Roast</h1>
+                                        </div>
+                                  </div>
+                                  <div class="col">
+                                      <div class="card mt-4 mx-auto" style="width: 18rem;">
+                                          <a role="button" id="coffeItemTwoButton">
+                                              <img src="images/coffe.png" class="card-img-top img-fluid" alt="...">
+                                          </a>
+                                          <h1>House Roast</h1>
+                                        </div>
+                                  </div>
+                                  <div class="col">
+                                      <div class="card mt-4 mx-auto" style="width: 18rem;">
+                                          <a role="button" id="coffeItemThreeButton">
+                                              <img src="images/expresso.png" class="card-img-top img-fluid" alt="...">
+                                          </a>
+                                          <h1>Espresso</h1>
+                                        </div>
+                                  </div>
+                                  <div class="col">
+                                      <div class="card mt-4 mx-auto" style="width: 18rem;">
+                                          <a role="button" id="coffeItemFourButton">
+                                              <img src="images/late.png" class="card-img-top img-fluid" alt="...">
+                                          </a>
+                                          <h1>Latte</h1>
+                                        </div>
+                                  </div>
+                              </div>
+                          </div>
+                       </div>
+                      </div>
+                
+
+                    <h1 class="mt-5 mb-2">Iced Drinks</h1>
+                    <img src="images/frostedstrawberrylemonade.png" class="img-fluid rounded-circle" alt="..." Style="width:300px;">
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <img src="images/dropdown.png" class="img-fluid" alt="..." style="width:30px;">
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col mt-4 mx-auto">
+                                    <div class="card mx-auto" style="width: 18rem;">
+                                        <a role="button" id="icedDrinkButtonOne" >
+                                            <img src="images/frostedstrawberrylemonade.png" class="card-img-top img-fluid" alt="...">
+                                        </a>
+                                        <h1>Fs Strawberry Lemonade</h1>
+                                      </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card mt-4 mx-auto" style="width: 18rem;">
+                                        <a role="button" id="icedDrinkButtonTwo">
+                                            <img src="images/strawberrylemonade.png" class="card-img-top img-fluid" alt="...">
+                                        </a>
+                                        <h1>Strawberry Lemonade</h1>
+                                      </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card mt-4 mx-auto" style="width: 18rem;">
+                                        <a role="button" id="icedDrinkButtonThree">
+                                            <img src="images/cocunutstrawberrylemonade.png" class="card-img-top img-fluid" alt="...">
+                                        </a>
+                                        <h1>Pink Drink</h1>
+                                      </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card mt-4 mx-auto" style="width: 18rem;">
+                                        <a role="button" id="icedDrinkButtonFour">
+                                            <img src="images/blueberrycocoanut.png" class="card-img-top img-fluid" alt="...">
+                                        </a>
+                                        <h1>Blueberry Drink</h1>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                    </div>
+                    
+                    <h1 class="mt-5 mb-2">Pastries</h1>
+                    <img src="images/brownee.png" class="img-fluid rounded-circle" alt="..." Style="width:300px;">
+                    <div class="card">
+                      <div class="card-header " id="headingThree">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <img src="images/dropdown.png" class="img-fluid" alt="..." style="width:30px;">
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="container">
+                            <div class="row">
+                                <div class="col mt-4 mx-auto">
+                                    <div class="card mx-auto" style="width: 18rem;">
+                                        <a role="button" id="pastriesButtonOne" >
+                                            <img src="images/brownee.png" class="card-img-top img-fluid" alt="...">
+                                        </a>
+                                        <h1>Chocolate Brownie</h1>
+                                      </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card mt-4 mx-auto" style="width: 18rem;">
+                                        <a role="button" id="pastriesButtonTwo">
+                                            <img src="images/lemonbar.png" class="card-img-top img-fluid" alt="...">
+                                        </a>
+                                        <h1>Lemon Bar</h1>
+                                      </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card mt-4 mx-auto" style="width: 18rem;">
+                                        <a role="button" id="pastriesButtonThree">
+                                            <img src="images/chocolatechipcookie.png" class="card-img-top img-fluid" alt="...">
+                                        </a>
+                                        <h1>Chocolate Chip Cookie</h1>
+                                      </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card mt-4 mx-auto" style="width: 18rem;">
+                                        <a role="button" id="pastriesButtonFour">
+                                            <img src="images/crossant.png" class="card-img-top img-fluid" alt="...">
+                                        </a>
+                                        <h1>Croissant</h1>
+                                      </div>
+                                </div>
+                            </div>
+                        </div> 
+                     </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+<!--Coffe Modals-->
+
+<div id="coffeItemOneModal" class="modal fade" role="dialog">
+    <div class="modal-dialog" role="dialog">
+        <div class="modal-content mx-auto">
+            <div class="modal-header mx-auto">
+               <h3 class="modal-title">Coffe</h3>
+            </div>
+            <div class="modal-body mx-auto">
+               <div class="container-fluid mx-auto">
+                <h1 class="text-center">Traditional Roast</h1>
+                <img src="images/coffe.png" class="img-fluid" alt="...">
+                <P class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab fugiat ad quibusdam cum velit accusamus aut animi nesciunt harum, totam doloribus tenetur alias placeat quos, nisi libero rem perferendis!</P>
+                 </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                 <div class="btn-group ml-5 mb-2 mt-2" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-primary">Small</button>
+                    <button type="button" class="btn btn-outline-primary">Medeum</button>
+                    <button type="button" class="btn btn-outline-primary">Large</button>
+                  </div>
+                    </div>
+                    <div class="col-12">
+                        <div>
+                            <form action="">
+                                <p class="qty">
+                                    <label for="qty"></label>
+                                    <button class="qtyminus btn btn-sm btn-secondary" aria-hidden="true">&minus;</button>
+                                    <input type="number" name="qty" id="qty" min="1" max="10" step="1" value="1">
+                                    <button class="qtyplus btn btn-sm btn-secondary" aria-hidden="true">&plus;</button>
+                                </p>
+                            </form>			
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Specal Instructions</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                 <div class="col">
+                 <div class="form-row mx-auto">
+                    <button type="button" class="btn btn-primary btn-md ml-auto">Add To Cart</button>
+                    <button type="submit" class="btn btn-danger btn-md ml-1" data-dismiss="modal">Cancle</button>
+                    </div>
+                    </div>
+                  </div>
+                 </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="coffeItemTwoModal" class="modal fade" role="dialog">
+    <div class="modal-dialog" role="dialog">
+        <div class="modal-content mx-auto">
+            <div class="modal-header mx-auto">
+               <h3 class="modal-title">Coffe</h3>
+            </div>
+            <div class="modal-body mx-auto">
+               <div class="container-fluid mx-auto">
+                <h1 class="text-center">House Roast</h1>
+                <img src="images/coffe.png" class="img-fluid" alt="...">
+                <P class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab fugiat ad quibusdam cum velit accusamus aut animi nesciunt harum, totam doloribus tenetur alias placeat quos, nisi libero rem perferendis!</P>
+                 </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                 <div class="btn-group ml-5 mb-2 mt-2" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-primary">Small</button>
+                    <button type="button" class="btn btn-outline-primary">Medeum</button>
+                    <button type="button" class="btn btn-outline-primary">Large</button>
+                  </div>
+                    </div>
+                    <div class="col-12">
+                        <div>
+                            <form action="">
+                                <p class="qty">
+                                    <label for="qty"></label>
+                                    <button class="qtyminus btn btn-sm btn-secondary" aria-hidden="true">&minus;</button>
+                                    <input type="number" name="qty" id="qty" min="1" max="10" step="1" value="1">
+                                    <button class="qtyplus btn btn-sm btn-secondary" aria-hidden="true">&plus;</button>
+                                </p>
+                            </form>			
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Specal Instructions</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                 <div class="col">
+                 <div class="form-row mx-auto">
+                    <button type="button" class="btn btn-primary btn-md ml-auto">Add To Cart</button>
+                    <button type="submit" class="btn btn-danger btn-md ml-1" data-dismiss="modal">Cancle</button>
+                    </div>
+                    </div>
+                  </div>
+                 </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="coffeItemThreeModal" class="modal fade" role="dialog">
+    <div class="modal-dialog" role="dialog">
+        <div class="modal-content mx-auto">
+            <div class="modal-header mx-auto">
+               <h3 class="modal-title">Coffe</h3>
+            </div>
+            <div class="modal-body mx-auto">
+               <div class="container-fluid mx-auto">
+                <h1 class="text-center">Espresso</h1>
+                <img src="images/expresso.png" class="img-fluid" alt="...">
+                <P class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab fugiat ad quibusdam cum velit accusamus aut animi nesciunt harum, totam doloribus tenetur alias placeat quos, nisi libero rem perferendis!</P>
+                 </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                 <div class="btn-group ml-5 mb-2 mt-2" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-primary">Small</button>
+                    <button type="button" class="btn btn-outline-primary">Medeum</button>
+                    <button type="button" class="btn btn-outline-primary">Large</button>
+                  </div>
+                    </div>
+                    <div class="col-12">
+                        <div>
+                            <form action="">
+                                <p class="qty">
+                                    <label for="qty"></label>
+                                    <button class="qtyminus btn btn-sm btn-secondary" aria-hidden="true">&minus;</button>
+                                    <input type="number" name="qty" id="qty" min="1" max="10" step="1" value="1">
+                                    <button class="qtyplus btn btn-sm btn-secondary" aria-hidden="true">&plus;</button>
+                                </p>
+                            </form>			
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Specal Instructions</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                 <div class="col">
+                 <div class="form-row mx-auto">
+                    <button type="button" class="btn btn-primary btn-md ml-auto">Add To Cart</button>
+                    <button type="submit" class="btn btn-danger btn-md ml-1" data-dismiss="modal">Cancle</button>
+                    </div>
+                    </div>
+                  </div>
+                 </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="coffeItemFourModal" class="modal fade" role="dialog">
+    <div class="modal-dialog" role="dialog">
+        <div class="modal-content mx-auto">
+            <div class="modal-header mx-auto">
+               <h3 class="modal-title">Coffe</h3>
+            </div>
+            <div class="modal-body mx-auto">
+               <div class="container-fluid mx-auto">
+                <h1 class="text-center">Latte</h1>
+                <img src="images/late.png" class="img-fluid" alt="...">
+                <P class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab fugiat ad quibusdam cum velit accusamus aut animi nesciunt harum, totam doloribus tenetur alias placeat quos, nisi libero rem perferendis!</P>
+                 </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                 <div class="btn-group ml-5 mb-2 mt-2" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-primary">Small</button>
+                    <button type="button" class="btn btn-outline-primary">Medeum</button>
+                    <button type="button" class="btn btn-outline-primary">Large</button>
+                  </div>
+                    </div>
+                    <div class="col-12">
+                        <div>
+                            <form action="">
+                                <p class="qty">
+                                    <label for="qty"></label>
+                                    <button class="qtyminus btn btn-sm btn-secondary" aria-hidden="true">&minus;</button>
+                                    <input type="number" name="qty" id="qty" min="1" max="10" step="1" value="1">
+                                    <button class="qtyplus btn btn-sm btn-secondary" aria-hidden="true">&plus;</button>
+                                </p>
+                            </form>			
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Specal Instructions</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                 <div class="col">
+                 <div class="form-row mx-auto">
+                    <button type="button" class="btn btn-primary btn-md ml-auto">Add To Cart</button>
+                    <button type="submit" class="btn btn-danger btn-md ml-1" data-dismiss="modal">Cancle</button>
+                    </div>
+                    </div>
+                  </div>
+                 </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Login Modal-->
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="dialog">
+            <div class="modal-content mx-auto">
+                <div class="modal-header mx-auto">
+                   <h3 class="modal-title">Login</h3>
+                    </div>
+                     <div class="modal-body mx-auto">
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                          </form>
+                          <div class="form-row mx-auto">
+                            <button type="button" class="btn btn-primary btn-md ml-auto">Login</button>
+                            <button type="submit" class="btn btn-danger btn-md ml-1" data-dismiss="modal">Cancle</button>
+                         </div>
+                     </div>
+                   </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+    <!--Join Modal-->
+    <div id="joinModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="dialog">
+            <div class="modal-content mx-auto">
+                <div class="modal-header mx-auto">
+                   <h3 class="modal-title">Join The Club</h3>
+                    </div>
+                     <div class="modal-body mx-auto">
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                              </div>
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">E-mail me deals and promotions!</label>
+                            </div>
+                          </form>
+                          <div class="form-row mx-auto">
+                            <button type="button" class="btn btn-primary btn-md ml-auto">Login</button>
+                            <button type="submit" class="btn btn-danger btn-md ml-1" data-dismiss="modal">Cancle</button>
+                         </div>
+                     </div>
+                   </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+      <!--Iced Drinks Modals-->
+      <div id="icedDrinkModalOne" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="dialog">
+            <div class="modal-content mx-auto">
+                <div class="modal-header mx-auto">
+                   <h3 class="modal-title">Iced Drinks</h3>
+                </div>
+                <div class="modal-body mx-auto">
+                   <div class="container-fluid mx-auto">
+                    <h1 class="text-center">Fs Strawberry Lemonade</h1>
+                    <img src="images/frostedstrawberrylemonade.png" class="img-fluid" alt="...">
+                    <P class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab fugiat ad quibusdam cum velit accusamus aut animi nesciunt harum, totam doloribus tenetur alias placeat quos, nisi libero rem perferendis!</P>
+                     </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                     <div class="btn-group ml-5 mb-2 mt-2" role="group" aria-label="Basic outlined example">
+                        <button type="button" class="btn btn-outline-primary">Small</button>
+                        <button type="button" class="btn btn-outline-primary">Medeum</button>
+                        <button type="button" class="btn btn-outline-primary">Large</button>
+                      </div>
+                        </div>
+                        <div class="col-12">
+                            <div>
+                                <form action="">
+                                    <p class="qty">
+                                        <label for="qty"></label>
+                                        <button class="qtyminus btn btn-sm btn-secondary" aria-hidden="true">&minus;</button>
+                                        <input type="number" name="qty" id="qty" min="1" max="10" step="1" value="1">
+                                        <button class="qtyplus btn btn-sm btn-secondary" aria-hidden="true">&plus;</button>
+                                    </p>
+                                </form>			
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Specal Instructions</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                     <div class="col">
+                     <div class="form-row mx-auto">
+                        <button type="button" class="btn btn-primary btn-md ml-auto">Add To Cart</button>
+                        <button type="submit" class="btn btn-danger btn-md ml-1" data-dismiss="modal">Cancle</button>
+                        </div>
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="icedDrinkModalTwo" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="dialog">
+            <div class="modal-content mx-auto">
+                <div class="modal-header mx-auto">
+                   <h3 class="modal-title">Iced Drinks</h3>
+                </div>
+                <div class="modal-body mx-auto">
+                   <div class="container-fluid mx-auto">
+                    <h1 class="text-center">Strawberry Lemonade</h1>
+                    <img src="images/strawberrylemonade.png" class="img-fluid" alt="...">
+                    <P class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab fugiat ad quibusdam cum velit accusamus aut animi nesciunt harum, totam doloribus tenetur alias placeat quos, nisi libero rem perferendis!</P>
+                     </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                     <div class="btn-group ml-5 mb-2 mt-2" role="group" aria-label="Basic outlined example">
+                        <button type="button" class="btn btn-outline-primary">Small</button>
+                        <button type="button" class="btn btn-outline-primary">Medeum</button>
+                        <button type="button" class="btn btn-outline-primary">Large</button>
+                      </div>
+                        </div>
+                        <div class="col-12">
+                            <div>
+                                <form action="">
+                                    <p class="qty">
+                                        <label for="qty"></label>
+                                        <button class="qtyminus btn btn-sm btn-secondary" aria-hidden="true">&minus;</button>
+                                        <input type="number" name="qty" id="qty" min="1" max="10" step="1" value="1">
+                                        <button class="qtyplus btn btn-sm btn-secondary" aria-hidden="true">&plus;</button>
+                                    </p>
+                                </form>			
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Specal Instructions</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                     <div class="col">
+                     <div class="form-row mx-auto">
+                        <button type="button" class="btn btn-primary btn-md ml-auto">Add To Cart</button>
+                        <button type="submit" class="btn btn-danger btn-md ml-1" data-dismiss="modal">Cancle</button>
+                        </div>
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="icedDrinkModalThree" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="dialog">
+            <div class="modal-content mx-auto">
+                <div class="modal-header mx-auto">
+                   <h3 class="modal-title">Iced Drinks</h3>
+                </div>
+                <div class="modal-body mx-auto">
+                   <div class="container-fluid mx-auto">
+                    <h1 class="text-center">Pink Drink</h1>
+                    <img src="images/cocunutstrawberrylemonade.png" class="img-fluid" alt="...">
+                    <P class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab fugiat ad quibusdam cum velit accusamus aut animi nesciunt harum, totam doloribus tenetur alias placeat quos, nisi libero rem perferendis!</P>
+                     </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                     <div class="btn-group ml-5 mb-2 mt-2" role="group" aria-label="Basic outlined example">
+                        <button type="button" class="btn btn-outline-primary">Small</button>
+                        <button type="button" class="btn btn-outline-primary">Medeum</button>
+                        <button type="button" class="btn btn-outline-primary">Large</button>
+                      </div>
+                        </div>
+                        <div class="col-12">
+                            <div>
+                                <form action="">
+                                    <p class="qty">
+                                        <label for="qty"></label>
+                                        <button class="qtyminus btn btn-sm btn-secondary" aria-hidden="true">&minus;</button>
+                                        <input type="number" name="qty" id="qty" min="1" max="10" step="1" value="1">
+                                        <button class="qtyplus btn btn-sm btn-secondary" aria-hidden="true">&plus;</button>
+                                    </p>
+                                </form>			
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Specal Instructions</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                     <div class="col">
+                     <div class="form-row mx-auto">
+                        <button type="button" class="btn btn-primary btn-md ml-auto">Add To Cart</button>
+                        <button type="submit" class="btn btn-danger btn-md ml-1" data-dismiss="modal">Cancle</button>
+                        </div>
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="icedDrinkModalFour" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="dialog">
+            <div class="modal-content mx-auto">
+                <div class="modal-header mx-auto">
+                   <h3 class="modal-title">Iced Drinks</h3>
+                </div>
+                <div class="modal-body mx-auto">
+                   <div class="container-fluid mx-auto">
+                    <h1 class="text-center">Blueberry Drink</h1>
+                    <img src="images/blueberrycocoanut.png" class="img-fluid" alt="...">
+                    <P class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab fugiat ad quibusdam cum velit accusamus aut animi nesciunt harum, totam doloribus tenetur alias placeat quos, nisi libero rem perferendis!</P>
+                     </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                     <div class="btn-group ml-5 mb-2 mt-2" role="group" aria-label="Basic outlined example">
+                        <button type="button" class="btn btn-outline-primary">Small</button>
+                        <button type="button" class="btn btn-outline-primary">Medeum</button>
+                        <button type="button" class="btn btn-outline-primary">Large</button>
+                      </div>
+                        </div>
+                        <div class="col-12">
+                            <div>
+                                <form action="">
+                                    <p class="qty">
+                                        <label for="qty"></label>
+                                        <button class="qtyminus btn btn-sm btn-secondary" aria-hidden="true">&minus;</button>
+                                        <input type="number" name="qty" id="qty" min="1" max="10" step="1" value="1">
+                                        <button class="qtyplus btn btn-sm btn-secondary" aria-hidden="true">&plus;</button>
+                                    </p>
+                                </form>			
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Specal Instructions</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                     <div class="col">
+                     <div class="form-row mx-auto">
+                        <button type="button" class="btn btn-primary btn-md ml-auto">Add To Cart</button>
+                        <button type="submit" class="btn btn-danger btn-md ml-1" data-dismiss="modal">Cancle</button>
+                        </div>
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Pastrie Modal-->
+
+    <div id="pastriesModalOne" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="dialog">
+            <div class="modal-content mx-auto">
+                <div class="modal-header mx-auto">
+                   <h3 class="modal-title">Pastries</h3>
+                </div>
+                <div class="modal-body mx-auto">
+                   <div class="container-fluid mx-auto">
+                    <h1 class="text-center">Chocolate Brownie</h1>
+                    <img src="images/brownee.png" class="img-fluid" alt="...">
+                    <P class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab fugiat ad quibusdam cum velit accusamus aut animi nesciunt harum, totam doloribus tenetur alias placeat quos, nisi libero rem perferendis!</P>
+                     </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                     <div class="btn-group ml-5 mb-2 mt-2" role="group" aria-label="Basic outlined example">
+                        <button type="button" class="btn btn-outline-primary">Small</button>
+                        <button type="button" class="btn btn-outline-primary">Medeum</button>
+                        <button type="button" class="btn btn-outline-primary">Large</button>
+                      </div>
+                        </div>
+                        <div class="col-12">
+                            <div>
+                                <form action="">
+                                    <p class="qty">
+                                        <label for="qty"></label>
+                                        <button class="qtyminus btn btn-sm btn-secondary" aria-hidden="true">&minus;</button>
+                                        <input type="number" name="qty" id="qty" min="1" max="10" step="1" value="1">
+                                        <button class="qtyplus btn btn-sm btn-secondary" aria-hidden="true">&plus;</button>
+                                    </p>
+                                </form>			
+                            </div>
+                        </div>
+                     <div class="col">
+                     <div class="form-row mx-auto">
+                        <button type="button" class="btn btn-primary btn-md ml-auto">Add To Cart</button>
+                        <button type="submit" class="btn btn-danger btn-md ml-1" data-dismiss="modal">Cancle</button>
+                        </div>
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="pastriesModalTwo" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="dialog">
+            <div class="modal-content mx-auto">
+                <div class="modal-header mx-auto">
+                   <h3 class="modal-title">Iced Drinks</h3>
+                </div>
+                <div class="modal-body mx-auto">
+                   <div class="container-fluid mx-auto">
+                    <h1 class="text-center">Blueberry Drink</h1>
+                    <img src="images/blueberrycocoanut.png" class="img-fluid" alt="...">
+                    <P class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab fugiat ad quibusdam cum velit accusamus aut animi nesciunt harum, totam doloribus tenetur alias placeat quos, nisi libero rem perferendis!</P>
+                     </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                     <div class="btn-group ml-5 mb-2 mt-2" role="group" aria-label="Basic outlined example">
+                        <button type="button" class="btn btn-outline-primary">Small</button>
+                        <button type="button" class="btn btn-outline-primary">Medeum</button>
+                        <button type="button" class="btn btn-outline-primary">Large</button>
+                      </div>
+                        </div>
+                        <div class="col-12">
+                            <div>
+                                <form action="">
+                                    <p class="qty">
+                                        <label for="qty"></label>
+                                        <button class="qtyminus btn btn-sm btn-secondary" aria-hidden="true">&minus;</button>
+                                        <input type="number" name="qty" id="qty" min="1" max="10" step="1" value="1">
+                                        <button class="qtyplus btn btn-sm btn-secondary" aria-hidden="true">&plus;</button>
+                                    </p>
+                                </form>			
+                            </div>
+                        </div>
+                     <div class="col">
+                     <div class="form-row mx-auto">
+                        <button type="button" class="btn btn-primary btn-md ml-auto">Add To Cart</button>
+                        <button type="submit" class="btn btn-danger btn-md ml-1" data-dismiss="modal">Cancle</button>
+                        </div>
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="pastriesModalThree" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="dialog">
+            <div class="modal-content mx-auto">
+                <div class="modal-header mx-auto">
+                   <h3 class="modal-title">Iced Drinks</h3>
+                </div>
+                <div class="modal-body mx-auto">
+                   <div class="container-fluid mx-auto">
+                    <h1 class="text-center">Blueberry Drink</h1>
+                    <img src="images/blueberrycocoanut.png" class="img-fluid" alt="...">
+                    <P class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab fugiat ad quibusdam cum velit accusamus aut animi nesciunt harum, totam doloribus tenetur alias placeat quos, nisi libero rem perferendis!</P>
+                     </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                     <div class="btn-group ml-5 mb-2 mt-2" role="group" aria-label="Basic outlined example">
+                        <button type="button" class="btn btn-outline-primary">Small</button>
+                        <button type="button" class="btn btn-outline-primary">Medeum</button>
+                        <button type="button" class="btn btn-outline-primary">Large</button>
+                      </div>
+                        </div>
+                        <div class="col-12">
+                            <div>
+                                <form action="">
+                                    <p class="qty">
+                                        <label for="qty"></label>
+                                        <button class="qtyminus btn btn-sm btn-secondary" aria-hidden="true">&minus;</button>
+                                        <input type="number" name="qty" id="qty" min="1" max="10" step="1" value="1">
+                                        <button class="qtyplus btn btn-sm btn-secondary" aria-hidden="true">&plus;</button>
+                                    </p>
+                                </form>			
+                            </div>
+                        </div>
+                     <div class="col">
+                     <div class="form-row mx-auto">
+                        <button type="button" class="btn btn-primary btn-md ml-auto">Add To Cart</button>
+                        <button type="submit" class="btn btn-danger btn-md ml-1" data-dismiss="modal">Cancle</button>
+                        </div>
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="pastriesModalFour" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="dialog">
+            <div class="modal-content mx-auto">
+                <div class="modal-header mx-auto">
+                   <h3 class="modal-title">Iced Drinks</h3>
+                </div>
+                <div class="modal-body mx-auto">
+                   <div class="container-fluid mx-auto">
+                    <h1 class="text-center">Blueberry Drink</h1>
+                    <img src="images/blueberrycocoanut.png" class="img-fluid" alt="...">
+                    <P class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab fugiat ad quibusdam cum velit accusamus aut animi nesciunt harum, totam doloribus tenetur alias placeat quos, nisi libero rem perferendis!</P>
+                     </div>
+                    <div class="container">
+                        <div class="row">
+                        <div class="col-12">
+                            <div>
+                                <form action="">
+                                    <p class="qty">
+                                        <label for="qty"></label>
+                                        <button class="qtyminus btn btn-sm btn-secondary" aria-hidden="true">&minus;</button>
+                                        <input type="number" name="qty" id="qty" min="1" max="10" step="1" value="1">
+                                        <button class="qtyplus btn btn-sm btn-secondary" aria-hidden="true">&plus;</button>
+                                    </p>
+                                </form>			
+                            </div>
+                        </div>
+                     <div class="col">
+                     <div class="form-row mx-auto">
+                        <button type="button" class="btn btn-primary btn-md ml-auto">Add To Cart</button>
+                        <button type="submit" class="btn btn-danger btn-md ml-1" data-dismiss="modal">Cancle</button>
+                        </div>
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+
+    <!--Footer-->
+
+    <footer class="footer-section">
+      <div class="container">
+          <div class="footer-cta pt-5 pb-5">
+              <div class="row">
+                  <div class="col-xl-4 col-md-4 mb-30">
+                      <div class="single-cta">
+                          <i class="fas fa-map-marker-alt"></i>
+                          <div class="cta-text">
+                              <h4>Find us</h4>
+                              <span>1010 Avenue, sw 54321, chandigarh</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-md-4 mb-30">
+                      <div class="single-cta">
+                          <i class="fas fa-phone"></i>
+                          <div class="cta-text">
+                              <h4>Call us</h4>
+                              <span>9876543210 0</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-md-4 mb-30">
+                      <div class="single-cta">
+                          <i class="far fa-envelope-open"></i>
+                          <div class="cta-text">
+                              <h4>Mail us</h4>
+                              <span>mail@info.com</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-content pt-5 pb-5">
+                 
+                  <div class="col-sm-12 col-lg-6">
+                      <div class="footer-widget">
+                          <div class="footer-widget-heading">
+                              <h3>Find us</h3>
+                          </div>
+                         <div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23536.15522259107!2d-90.74068215502442!3d42.49114014093983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87e32c474bd034e3%3A0xea9abe9329ee31a2!2sStarbucks!5e0!3m2!1sen!2sus!4v1656630909479!5m2!1sen!2sus" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                         </div>
+                      </div>
+                  </div>
+                 </div>
+              </div>
+          </div>
+          <div class="col"></div>
+      </div>
+      <div class="copyright-area">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                      <div class="copyright-text">
+                          <p>Copyright &copy; 2022, All Right Reserved </p>
+                      </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                      <div class="footer-menu">
+                          <ul>
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">Terms</a></li>
+                              <li><a href="#">Privacy</a></li>
+                              <li><a href="#">Policy</a></li>
+                              <li><a href="#">Contact</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+
+
+  
+
+    
+    <script src="https://kit.fontawesome.com/1f504aa6c1.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+
+  
+    
+    <script>
+        //All jquery below opens all modals
+        $(function(){ 
+            $('#coffeItemOneButton').click (function(){
+                $('#coffeItemOneModal').modal("show");
+            })
+            });
+
+            $(function(){ 
+            $('#coffeItemTwoButton').click (function(){
+                $('#coffeItemTwoModal').modal("show");
+            })
+            });
+
+            $(function(){ 
+            $('#coffeItemThreeButton').click (function(){
+                $('#coffeItemThreeModal').modal("show");
+            })
+            });
+
+            $(function(){ 
+            $('#coffeItemFourButton').click (function(){
+                $('#coffeItemFourModal').modal("show");
+            })
+            });
+        
+            $(function(){ 
+            $('#loginButton').click (function(){
+                $('#loginModal').modal("show");
+            })
+            });
+
+            $(function(){ 
+            $('#joinButton').click (function(){
+                $('#joinModal').modal("show");
+            })
+            });
+
+            $(function(){ 
+            $('#icedDrinkButtonOne').click (function(){
+                $('#icedDrinkModalOne').modal("show");
+            })
+            });
+
+            $(function(){ 
+            $('#icedDrinkButtonTwo').click (function(){
+                $('#icedDrinkModalTwo').modal("show");
+            })
+            });
+
+            $(function(){ 
+            $('#icedDrinkButtonThree').click (function(){
+                $('#icedDrinkModalThree').modal("show");
+            })
+            });
+
+            $(function(){ 
+            $('#icedDrinkButtonFour').click (function(){
+                $('#icedDrinkModalFour').modal("show");
+            })
+            });
+
+            $(function(){ 
+            $('#pastriesButtonOne').click (function(){
+                $('#pastriesModalOne').modal("show");
+            })
+            });
+
+            $(function(){ 
+            $('#pastriesButtonTwo').click (function(){
+                $('#pastriesModalTwo').modal("show");
+            })
+            });
+
+            $(function(){ 
+            $('#pastriesButtonThree').click (function(){
+                $('#pastriesModalThree').modal("show");
+            })
+            });
+
+            $(function(){ 
+            $('#pastriesButtonFour').click (function(){
+                $('#pastriesModalFour').modal("show");
+            })
+            });
+            
+
+ 
+    </script>
+
+          
+<script>
+    
+    var input = document.querySelector('#qty');
+var btnminus = document.querySelector('.qtyminus');
+var btnplus = document.querySelector('.qtyplus');
+
+if (input !== undefined && btnminus !== undefined && btnplus !== undefined && input !== null && btnminus !== null && btnplus !== null) 
+	
+	var min = Number(input.getAttribute('min'));
+	var max = Number(input.getAttribute('max'));
+	var step = Number(input.getAttribute('step'));
+
+	function qtyminus(e) {
+		var current = Number(input.value);
+		var newval = (current - step);
+		if(newval < min) {
+			newval = min;
+		} else if(newval > max) {
+			newval = max;
+		} 
+		input.value = Number(newval);
+		e.preventDefault();
+	}
+
+	function qtyplus(e) {
+		var current = Number(input.value);
+		var newval = (current + step);
+		if(newval > max) newval = max;
+		input.value = Number(newval);
+		e.preventDefault();
+	}
+		
+	btnminus.addEventListener('click', qtyminus);
+	btnplus.addEventListener('click', qtyplus);
+
+
+
+
+</script>
+
+<script src="https://kit.fontawesome.com/1f504aa6c1.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
